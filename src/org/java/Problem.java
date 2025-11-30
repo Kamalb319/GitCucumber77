@@ -11,6 +11,7 @@ public class Problem {
 	
 	public static void main (String[] args) {
      
+
     String a = "testing";
     String b = "Selenium";
     
@@ -22,6 +23,17 @@ public class Problem {
     System.out.println("afteswapping b:="+b);
     
     System.out.println("arvind completed");
+
+   int a1 = 10 , b1 = 5;
+   
+   a1 = a1+b1;
+   b1 = a1-b1;
+   a1 = a1-b1;
+   
+   System.out.println("after swapping a1=:"+ a1);
+   System.out.println("after swapping b1=:"+ b1);
+   System.out.println("completed");
+
     
 		
 	}
