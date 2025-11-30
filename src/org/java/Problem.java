@@ -11,15 +11,29 @@ public class Problem {
 	
 	public static void main (String[] args) {
      
-   int a = 10 , b = 5;
+
+    String a = "testing";
+    String b = "Selenium";
+    
+    a = a+b;
+    b = a.substring(0, a.length()-b.length());
+    a = a.substring(b.length());
+    
+    System.out.println("afterswapping a:="+a);
+    System.out.println("afteswapping b:="+b);
+    
+    System.out.println("arvind completed");
+
+   int a1 = 10 , b1 = 5;
    
-   a = a+b;
-   b = a-b;
-   a = a-b;
+   a1 = a1+b1;
+   b1 = a1-b1;
+   a1 = a1-b1;
    
-   System.out.println("after swapping a=:"+ a);
-   System.out.println("after swapping b=:"+ b);
+   System.out.println("after swapping a1=:"+ a1);
+   System.out.println("after swapping b1=:"+ b1);
    System.out.println("completed");
+
     
 		
 	}
